@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Figtree&display=swap');
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Aboreto', cursive;
+  /* font-family: 'Figtree', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background: linear-gradient(to right, #4CA1AF, #2C3E50);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
