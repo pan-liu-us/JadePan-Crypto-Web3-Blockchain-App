@@ -18,6 +18,35 @@ body {
   background: linear-gradient(to right, #4CA1AF, #2C3E50);
 }
 
+.eth-card {
+  background-color:hsla(188,39%,49%,1);
+  background-image:
+  radial-gradient(at 42% 68%, hsla(128,76%,79%,1) 0px, transparent 50%),
+  radial-gradient(at 64% 61%, hsla(12,95%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 47% 48%, hsla(265,99%,69%,1) 0px, transparent 50%),
+  radial-gradient(at 60% 36%, hsla(329,83%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 70% 90%, hsla(243,81%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 7% 31%, hsla(27,80%,67%,1) 0px, transparent 50%),
+  radial-gradient(at 28% 65%, hsla(123,99%,63%,1) 0px, transparent 50%),
+  radial-gradient(at 17% 83%, hsla(226,79%,60%,1) 0px, transparent 50%);
+}
+
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.blue-glassmorphism {
+  background: rgba(76, 161, 175, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
