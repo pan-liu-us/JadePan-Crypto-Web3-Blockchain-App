@@ -27,7 +27,7 @@ body {
   radial-gradient(at 60% 36%, hsla(329,83%,75%,1) 0px, transparent 50%),
   radial-gradient(at 70% 90%, hsla(243,81%,71%,1) 0px, transparent 50%),
   radial-gradient(at 7% 31%, hsla(27,80%,67%,1) 0px, transparent 50%),
-  radial-gradient(at 28% 65%, hsl(123, 99%, 63%) 0px, transparent 50%),
+  radial-gradient(at 28% 65%, hsla(123,99%,63%,1) 0px, transparent 50%),
   radial-gradient(at 17% 83%, hsla(226,79%,60%,1) 0px, transparent 50%);
 }
 
